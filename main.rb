@@ -10,4 +10,4 @@ bike.add_cargo(:repair_kit)
 
 puts "Space for #{bike.pannier_remaining_capacity} items left."
 
-bike.rent!
+rental = Rental.new(bike)
